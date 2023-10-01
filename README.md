@@ -7,6 +7,10 @@ backgammon-simd
 
 Type-safe valid move generator for backgammon using SIMD instructions. Useful for e.g. ML stuff.
 
+Also has a (slow?) random board generator as a useful utility.
+
+Doesn't handle cubes and matches.
+
 Is it actually **very fast**? Probably not. Currently takes 7µs per board on my slow box (~140k/s). Let me know who to compete with. But it's nice to use and doesn't feel like a complete waste, performance-wise.
 
 I only tested it using nightly, it wants `#![feature(portable_simd)]`.
