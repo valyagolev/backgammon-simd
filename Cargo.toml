@@ -8,6 +8,7 @@
     homepage      = "https://github.com/valyagolev/backgammon-simd"
     documentation = "https://docs.rs/backgammon-simd/"
     keywords      = ["game"]
+    description   = "Type-safe valid move generator for backgammon using SIMD instructions. Useful for e.g. ML stuff."
 
     # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
